@@ -39,7 +39,9 @@ const Header = () => {
             <Link to ="/menu">Menu</Link>
          
 
-            {data.length >0 ?   <Link to ="/cart"><FiShoppingCart/></Link> :<button  onClick={()=>toast.error("Cart Is Empty")}><FiShoppingCart/></button>}
+            {data.length >0 ?
+
+             <Link to ="/cart"><FiShoppingCart/><span style={{fontSize:".9rem",fontWeight:"500"}}>{data.length}</span></Link> :<button  onClick={()=>toast.error("Cart Is Empty")}><FiShoppingCart/></button>}
 <Link to={user?"/profile":"/login"}>
 
 {user?<img src={user.user.photo} alt="Profile" onError={(e)=>{e.target.onError = null; e.target.src ="http://res.cloudinary.com/dhte80xl2/image/upload/v1751449436/ryske7khyuovbrrer6jf.png"}} className="profile-pic" /> : <FiLogIn/> }

@@ -75,6 +75,7 @@ import { contactapi } from '../../../Api';
 import { useSelector } from 'react-redux';
 import { FaSnapchat } from "react-icons/fa";
 import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
 
@@ -83,6 +84,7 @@ const Contact = () => {
 
   const [formData, setFormData] = useState({ name: user?user.user.name:"", email: user? user.user.email:"", message: '' });
 
+  const navigate = useNavigate()
 
   useEffect(() => {
    
@@ -99,6 +101,12 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setloading(true)
+
+      if(!user){
+         navigate("/login")
+        toast.error("Please Login Before Contact .")
+        }
+
     try {
       await contactapi.post("/", formData);
 
@@ -107,6 +115,8 @@ const Contact = () => {
       setloading(false)
     } catch {
       alert('Failed to send message.');
+      setloading(false)
+
     }
   };
 
