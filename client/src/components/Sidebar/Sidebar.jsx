@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./sidebar.css"
+import "./Sidebar.css"
 import { MdDashboard } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { AiOutlineProduct } from "react-icons/ai";
