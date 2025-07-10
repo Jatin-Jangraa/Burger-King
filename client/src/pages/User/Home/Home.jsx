@@ -65,38 +65,37 @@ const pageTransition = {
           animate={{ y: 0, opacity: 1 }}
   whileTap={{ scale: 0.95 }}
     whileHover={{ scale: 1.05, backgroundColor: "transparent" }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-    className='sandbutton'><img src="././src/assets/Pizza.png" alt="" className='sandimage'/></motion.button>
+    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="http://res.cloudinary.com/dhte80xl2/image/upload/v1752118773/kp18j2qesipqzgapuqmx.png" alt="" className='sandimage'/></motion.button>
    <motion.button 
      initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
    whileTap={{ scale: 0.95 }}
     whileHover={{ scale: 1.05, backgroundColor: "transparent" }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="././src/assets/chips.webp" alt="" className='sandimage'/></motion.button> 
+    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="http://res.cloudinary.com/dhte80xl2/image/upload/v1752118828/nxz39wtteafmum2zvhnn.webp" alt="" className='sandimage'/></motion.button> 
   <motion.button 
     initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
   whileTap={{ scale: 0.95 }}
     whileHover={{ scale: 1.05, backgroundColor: "transparent" }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="././src/assets/noodle.jpg" alt="" className='sandimage'/></motion.button>
+    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="http://res.cloudinary.com/dhte80xl2/image/upload/v1752118860/hq13i8gwlxnd7iuvy3sm.jpg" alt="" className='sandimage'/></motion.button>
      <motion.button 
        initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
            whileTap={{ scale: 0.95 }}
     whileHover={{ scale: 1.05, backgroundColor: "transparent" }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="././src/assets/samosa.webp" alt="" className='sandimage'/></motion.button>
+    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="http://res.cloudinary.com/dhte80xl2/image/upload/v1752119073/yr3vlentsadfavvuqeim.jpg" alt="" className='sandimage'/></motion.button>
      <motion.button 
        initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
            whileTap={{ scale: 0.95 }}
     whileHover={{ scale: 1.05, backgroundColor: "transparent" }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="././src/assets/pasta.avif" alt="" className='sandimage'/></motion.button>
+    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="http://res.cloudinary.com/dhte80xl2/image/upload/v1752119104/ujz0jbmtqsgnjawyv08l.avif" alt="" className='sandimage'/></motion.button>
      <motion.button 
        initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
            whileTap={{ scale: 0.95 }}
     whileHover={{ scale: 1.05, backgroundColor: "transparent" }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="././src/assets/sand.jpg" alt="" className='sandimage' /></motion.button> 
+    transition={{ type: "spring", stiffness: 400, damping: 10 }}className='sandbutton'><img src="http://res.cloudinary.com/dhte80xl2/image/upload/v1752119137/lhogzlvc3x7slny28jai.jpg" alt="" className='sandimage' /></motion.button> 
 
     </div>
    
