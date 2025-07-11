@@ -10,7 +10,8 @@ import { orderroute } from './Routes/Order.route.js'
 import { contact } from './Controller/Contact.controller.js'
 import {  confirmOrder } from './Controller/Confirm.controller.js'
 import { dashroute } from './Routes/Dashboard.route.js'
-
+import path from 'path'
+import {fileURLToPath}from 'url'
 
 const app = express()
 
@@ -23,9 +24,20 @@ const PORT =process.env.PORT ||4000
 app.use(express.json())
 app.use(cors())
 
+app.get("/api/v1/configapi" ,(req,res) =>{
+    res.json({apiurl :`http://localhost:${PORT}`})
+})
 
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
+
+app.use(express.static(path.join(__dirname,"../../client/dist")))
+
+// app.get('*',(req,res)=>{
+//   res.sendFile(path.join(__dirname,"../../client/dist",'index.html'))
+// })
 
 
 app.use("/api/v1/user" ,userroute)
@@ -48,7 +60,9 @@ app.post("/api/v1/confirm",confirmOrder)
 
 
 
-app.use('/',(req,res)=>{res.send("HELLO WORLD")})
+// app.use('/',(req,res)=>{res.send("HELLO WORLD")})
+
+
 
 
 

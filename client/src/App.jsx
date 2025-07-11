@@ -143,9 +143,11 @@ export default App
 
 
 
+// # VITE_BACKEND_SERVER =https://burger-king-k568.onrender.com
+// # VITE_BACKEND_SERVER =http://localhost:5000
 
-// VITE_BACKEND_SERVER =https://burger-king-k568.onrender.com
 
+// VITE_BACKEND_SERVER =
 
 
 
