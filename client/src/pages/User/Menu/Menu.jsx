@@ -77,7 +77,8 @@ console.log(apidata);
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
        className="catedetail">
         <div className="cateimage">
-          <img src="././src/assets/Pizza.png" alt="" />
+                  <img src="https://res.cloudinary.com/dvkfvgzlp/image/upload/v1751526768/products/pju548nvb96kwzra7tdr.png" alt="" />
+
         </div>
         <h3 className="catename">Pizza</h3>
        </motion.button>
@@ -90,7 +91,8 @@ console.log(apidata);
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
        className="catedetail">
         <div className="cateimage">
-          <img src="././src/assets/Pizza.png" alt="" />
+                 <img src="https://res.cloudinary.com/dvkfvgzlp/image/upload/v1751526768/products/pju548nvb96kwzra7tdr.png" alt="" />
+
         </div>
         <h3 className="catename">Pizza</h3>
        </motion.button>
@@ -103,7 +105,8 @@ console.log(apidata);
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
        className="catedetail">
         <div className="cateimage">
-          <img src="././src/assets/Pizza.png" alt="" />
+                 <img src="https://res.cloudinary.com/dvkfvgzlp/image/upload/v1751526768/products/pju548nvb96kwzra7tdr.png" alt="" />
+
         </div>
         <h3 className="catename">Pizza</h3>
        </motion.button>
@@ -116,7 +119,8 @@ console.log(apidata);
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
        className="catedetail">
         <div className="cateimage">
-          <img src="././src/assets/Pizza.png" alt="" />
+                <img src="https://res.cloudinary.com/dvkfvgzlp/image/upload/v1751526768/products/pju548nvb96kwzra7tdr.png" alt="" />
+
         </div>
         <h3 className="catename">Pizza</h3>
        </motion.button>
@@ -129,7 +133,7 @@ console.log(apidata);
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
        className="catedetail">
         <div className="cateimage">
-          <img src="././src/assets/Pizza.png" alt="" />
+          <img src="https://res.cloudinary.com/dvkfvgzlp/image/upload/v1751526768/products/pju548nvb96kwzra7tdr.png" alt="" />
         </div>
         <h3 className="catename">Pizza</h3>
        </motion.button>
@@ -142,7 +146,8 @@ console.log(apidata);
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
        className="catedetail">
         <div className="cateimage">
-          <img src="././src/assets/Pizza.png" alt="" />
+                  <img src="https://res.cloudinary.com/dvkfvgzlp/image/upload/v1751526768/products/pju548nvb96kwzra7tdr.png" alt="" />
+
         </div>
         <h3 className="catename">Pizza</h3>
        </motion.button>

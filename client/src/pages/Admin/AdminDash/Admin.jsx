@@ -185,7 +185,7 @@ const Admin = () => {
           
           
 
-          {data?<DualLineChart  data={data}/>:""}
+          {data?<DualLineChart  data={data}/>:<div>"Please Wait.."</div>}
 
         </motion.div>
 

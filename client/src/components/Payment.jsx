@@ -34,7 +34,9 @@ function RazorpayButton({ amount }) {
     setloading(true)
 
     const options = {
-      key: import.meta.env.VITE_PAYMENT, // Replace with your Razorpay key ID
+      key:"rzp_test_lxf9brpVOj4KUj" , // Replace with your Razorpay key ID
+    
+      // key: import.meta.env.VITE_PAYMENT, // Replace with your Razorpay key ID
       amount: amount * 100, // Razorpay amount is in paise
       currency: "INR",
       name: "Jatin's Burger King",

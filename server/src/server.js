@@ -12,7 +12,6 @@ import {  confirmOrder } from './Controller/Confirm.controller.js'
 import { dashroute } from './Routes/Dashboard.route.js'
 
 
-
 const app = express()
 
 
@@ -48,7 +47,8 @@ app.post ("/api/v1/contact",contact)
 app.post("/api/v1/confirm",confirmOrder)
 
 
-app.get("/",(req,res)=>{res.send("HELLO WORLD")})
+
+app.use('/',(req,res)=>{res.send("HELLO WORLD")})
 
 
 
@@ -56,3 +56,30 @@ app.listen( PORT  ,()=>{
     console.log(`Express is runnung on Port ${PORT}`);
     
 })
+
+
+
+
+
+
+
+
+
+
+
+
+// PORT = 5000
+
+
+
+// DATABASE= mongodb+srv://Burger:King@burgerking.9h3vykd.mongodb.net/?retryWrites=true&w=majority&appName=BurgerKing
+
+
+
+// CLOUDINARY_CLOUD_NAME=dvkfvgzlp
+// CLOUDINARY_API_KEY=748897747985641
+// CLOUDINARY_API_SECRET=dwPeKxhctkSc_CxMXllhjFFG6Vo
+
+// MY_EMAIL=jatin12468@gmail.com
+// MY_APP_PASSWORD=fxqp xsxq jbqu mvdi
+// # CLOUDINARY_URL=cloudinary://748897747985641:dwPeKxhctkSc_CxMXllhjFFG6Vo@dvkfvgzlp  not used

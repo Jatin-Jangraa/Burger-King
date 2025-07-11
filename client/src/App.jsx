@@ -129,3 +129,30 @@ const App = () => {
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// VITE_BACKEND_SERVER =https://burger-king-k568.onrender.com
+
+
+
+
+
+// VITE_PAYMENT=rzp_test_lxf9brpVOj4KUj
+
+
+// VITE_PAYMENT_link=https://checkout.razorpay.com/v1/checkout.js
+
+
